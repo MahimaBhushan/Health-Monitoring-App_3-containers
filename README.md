@@ -60,7 +60,7 @@ Steps:
   
    >>docker build -t collectdata .
    
-   >>docker run --link mongo:mongo collect data
+   >>docker run --link mongo:mongo collectdata
    
 3. build the dashboard image and run the container linking with the database also map the ports
 
