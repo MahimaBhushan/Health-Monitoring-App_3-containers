@@ -1,6 +1,6 @@
 # Health-Monitoring-App_3-containers
 
-Here we are using 3 container 
+Here we are using 3 container and running them individually instead of using a docker compose.
 
 1. mongodb : the mongodb image is directly installed from the docker-hub.
 
