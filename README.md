@@ -79,3 +79,9 @@ Steps:
   
   we will be able to lauch the app.
 
+
+Things to be rectified:
+
+1. the time in the dashboard plots are 5hrs ahead.
+
+2. on clicking the router_id multiple tabs are opening. Whereas, only one must be opened.
