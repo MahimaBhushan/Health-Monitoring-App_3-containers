@@ -68,10 +68,12 @@ Steps:
    
    >>docker run --link mongo:mongo -p 5050:5555 dashboard
    
-   The dashboard can be viewed on  http://127.0.0.1:5050 on the browser.
+   The dashboard can be viewed on  http://127.0.0.1:5050 on the browser. The live data is being read and updated on the dashboard.
   
    
-  The advantage of docker-compose file will be avoid the above 3 steps of individually running the containers and and but just doing
+  The advantage of docker-compose file will be avoid the above 3 steps of individually building and running the containers. 
+  
+  By just doing
  
   >>docker-compose up 
   
