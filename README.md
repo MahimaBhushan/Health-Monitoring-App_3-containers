@@ -17,7 +17,7 @@ Point to remember:
 
 file structure:
 
-health app : 
+health-app : 
 
 ---> collect1 ----> (Dockerfile) + other files
 
