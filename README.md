@@ -52,6 +52,8 @@ files present in  dashboard1 folder:
 
 Steps: 
 
+These commands must be run in their respective Dockerfile path.
+
 1. pull the mongodb docker image and run it, also name the container as mongo
 
    >>docker run --name mongo mongo
