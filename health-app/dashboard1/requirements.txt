@@ -1,0 +1,12 @@
+numpy 
+dash 
+pymongo
+pandas
+pexpect
+dash_bootstrap_components
+dash_core_components
+dash_html_components
+regex
+tensorflow
+keras
+scikit-learn
