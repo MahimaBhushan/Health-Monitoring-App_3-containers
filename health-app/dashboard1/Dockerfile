@@ -1,9 +1,6 @@
 FROM python:3.7
 WORKDIR /usr/src/app
-
-COPY Routerdata.csv .
-COPY db_csv.py .
-
+ 
 COPY callbacks.py .
 COPY layouts.py .
 COPY app.py .
