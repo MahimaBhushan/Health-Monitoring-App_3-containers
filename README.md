@@ -71,4 +71,9 @@ Steps:
    The dashboard can be viewed on  http://127.0.0.1:5050 on the browser.
   
    
+  The advantage of docker-compose file will be avoid the above 3 steps of individually running the containers and and but just doing
+ 
+  >>docker-compose up 
+  
+  we will be able to lauch the app.
 
