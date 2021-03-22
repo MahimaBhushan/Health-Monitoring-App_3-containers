@@ -1,0 +1,63 @@
+version: "3"
+
+services:
+  
+  mongo:
+    image: mongo:3.6.19-xenial
+    ports:
+      - "27017:27017"
+    expose:
+      - 27017
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - mern-app
+   
+   
+
+
+  collectdata1:
+    build: ./collectdata1
+ 
+    volumes:
+      - ./collectdata1:/usr/src/app
+ 
+    depends_on:
+      - mongo
+     
+    networks:
+      - mern-app
+ 
+
+
+  dashboard1:
+    build: ./dashboard1
+    
+    volumes:
+      - ./dashboard1:/usr/src/app
+    ports:
+      - "5432:5555"
+    depends_on:
+      -  mongo
+  
+    depends_on:
+      -  collectdata1
+  
+     
+    networks:
+      - mern-app
+  
+     
+  
+ 
+  
+networks:
+  mern-app:
+    driver: bridge
+   
+ 
+volumes:
+  mongo-data:
+    driver: local
+  
+   
