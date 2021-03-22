@@ -87,3 +87,10 @@ Things to be rectified:
 1. the time in the dashboard plots are 5hrs ahead.
 
 2. on clicking the router_id multiple tabs are opening. Whereas, only one must be opened.
+
+
+
+Running the app using docker-compose:
+1. cd into path where docker-compose.yaml is present 
+2. run the command
+   >>docker-compose up
